@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Intro to Code for MBAs — Class 9 Testing Lab",
   "scripts": {
+    "start": "serve . -l 5000",
     "test": "jest --watchAll=false --verbose"
   },
   "devDependencies": {
     "jest": "^29.7.0"
   },
   "dependencies": {
-    "serve": "^14.2.5"
+    "serve": "^14.2.6"
   }
 }
